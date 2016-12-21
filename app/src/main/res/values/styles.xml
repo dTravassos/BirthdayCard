@@ -13,6 +13,7 @@
         <item name="android:textSize">36sp</item>
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">20dp</item>
     </style>
 
 </resources>

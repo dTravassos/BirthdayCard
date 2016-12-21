@@ -6,6 +6,13 @@
     android:theme="@style/AppTheme"
     tools:context="com.example.diogotravassos.birthdaycard.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/party"
+        android:theme="@style/AppTheme" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,12 +26,5 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="From Me!" />
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/party"
-        android:theme="@style/AppTheme" />
 
 </RelativeLayout>
